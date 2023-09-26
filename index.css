@@ -1,0 +1,102 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Roboto Slab', serif;
+}
+
+
+#landing {
+	background-image: url("https://media.tenor.com/1cXcfjGBcL0AAAAC/smithereens-joji.gif");
+	background-size: cover;
+	background-position: center;
+}
+
+#landing p {
+	text-align: justify;
+
+}
+
+.profilepic img {
+	box-shadow: 0 0 20px 2px lightblue;
+}
+
+.card {
+	background: rgb(51,69,105);
+	background: linear-gradient(155deg, rgba(51,69,105,1) 7%, rgba(74,93,126,1) 23%, rgba(81,147,180,1) 40%, rgba(108,202,137,1) 65%);
+}
+
+#subtitle{
+	margin-top: -7px;
+}
+
+.card-body p {
+	text-align: justify;
+}
+
+.fa-brands {
+	color: white;
+	transition: .5s;
+}
+
+#tools img {
+	max-width: 40%;
+	max-height: 40%;
+}
+
+#tools {
+	background: rgb(108,202,137);
+	background: linear-gradient(119deg, rgba(108,202,137,1) 12%, rgba(81,147,180,1) 46%, rgba(74,93,126,1) 73%, rgba(51,69,105,1) 89%);
+}
+
+#contact{
+	background-image: url("https://steamuserimages-a.akamaihd.net/ugc/1884220672903911352/8224ABA79496C487DFA83E567E6F1E2BD484BEB4/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true");
+	background-size: cover;
+	background-position: top;
+}
+
+
+.profilepic img{
+    opacity: 75%;
+    transition: .5s;
+}
+
+
+.profilepic:hover img{
+    opacity: 100%;
+}
+
+.card {
+	transition: .5s;
+}
+
+.card:hover {
+	transform: scale(1.1);
+	z-index: 2;
+	box-shadow: 0 0 20px 2px gray;
+
+}
+
+.logo {
+	transition: .5s;
+}
+
+.logo:hover {
+	transform: scale(1.3);
+	z-index: 2;
+}
+
+.fa-brands:hover {
+	transform: scale(1.3);
+	z-index: 2;
+}
+
+iframe {
+	box-shadow: 0 0 20px 2px gray;
+}
+	
