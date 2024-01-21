@@ -51,14 +51,14 @@
 	<!-- Landing Section starts here -->
 	<div class="text-light vh-100" id="landing">
 		<div class="row py-3" id="landing-row">
-			<div class="order col-md-7 col-lg-6 text-center">
+			<div class="profile order col-md-7 col-lg-6 text-center show-on-scroll">
 				<img src="./images/avatar.png" class="img-fluid d-none d-md-flex" id="profilepic" />
 				<img src="./images/avatar1.jpg" class="img-fluid rounded-circle d-md-none" id="profilepic1" />
 			</div>
-			<div class="col-md-5 mt-lg-5 py-lg-5 text-center text-lg-end">
+			<div class="about col-md-5 mt-lg-5 py-lg-5 text-center text-lg-end show-on-scroll">
 				<h1 class="title">FRANZ FERNANDEZ</h1>
 				<h4 class="subtitle mt-1">Full-Stack Alchemist. Lifelong Learner. Always Schwifty</h4>
-				<div class="mt-4">
+				<div class="project-buttons mt-4">
 					<a href="#projects"><button class="button-57" role="button"><span class="text">PROJECTS</span><span class="subtext">Checkout my work</span></button></button></a>
 					<a href="#tools"><button class="button-57" role="button"><span class="text">MY TOOLS</span><span class="subtext">Instruments I use</span></button></button></a>
 					<a href="#footer"><button class="button-57" role="button"><span class="text">CONTACT ME</span><span class="subtext">Get in touch</span></button></button></a>
@@ -71,13 +71,13 @@
 
 	<!-- Projects Section starts here -->
 	<section id="projects" class="container-fluid py-5 bg-dark">
-		<h1 class="text-center text-white">MY PROJECTS</h1>
-		<div class="card-deck row justify-content-center mt-3">
+		<h1 class="text-center text-white mt-3">MY PROJECTS</h1>
+		<div class="card-deck row justify-content-center mt-1 show-on-scroll">
 			<div class="card col-lg-3 m-3 col-10 p-3">
 				<a href="https://thriftharbor.vercel.app//" target="_blank" class="text-decoration-none">
 				<img src="./images/thriftharbor.png" class="card-img-top rounded" alt="...">
 				<div class="card-body text-white h-auto">
-					<div class="container bg-light text-dark projectDesc rounded p-3">
+					<div class="container bg-light text-dark projectDesc rounded p-2">
 						<h5 class="card-title text-center">THRIFTHARBOR</h5>
 						<p class="card-text">ThriftHarbor is a user-friendly E-Commerce website I developed during my time at Zuitt Coding Bootcamp. This project demonstrates my proficiency in utilizing MongoDB, Express.js, React.js, and Node.js, showcasing a practical application of my skills in web development..</p>
 						<small class="card-text"> Last 01/13/24</small>
@@ -89,7 +89,7 @@
 				<a href="https://gitlab.com/fernandezfranz1216/csp2-fernandez" target="_blank" class="text-decoration-none">
 				<img src="./images/node-express.png" class="card-img-top rounded" alt="...">
 				<div class="card-body text-white h-auto">
-					<div class="container bg-light text-dark projectDesc rounded p-3">
+					<div class="container bg-light text-dark projectDesc rounded p-2">
 						<h5 class="card-title text-center">E-COMMERCE BACKEND API</h5>
 						<p class="card-text">An Express.js back-end, structured with models, routers, and controllers, was implemented for an e-commerce platform. This included responsibilities such as data processing, user authentication, and server-side logic, with all changes meticulously tracked using Git version control.</p>
 						<small class="card-text"> Last updated 01/13/24</small>
@@ -101,7 +101,7 @@
 				<a href="#" target="_blank" class="text-decoration-none">
 				<img src="./images/comingsoon.jpg" class="card-img-top rounded" alt="...">
 				<div class="card-body text-white h-auto">
-					<div class="container bg-light text-dark projectDesc rounded p-3">
+					<div class="container bg-light text-dark projectDesc rounded p-2">
 						<h5 class="card-title text-center">COMING SOON..</h5>
 						<p class="card-text">Upcoming projects on my continuous journey of lifelong learning.</p>
 						<small class="card-text">Work-in-progress</small>
@@ -117,9 +117,9 @@
 
 	<!-- Tools Section starts here -->
 	<div id="tools" class="text-center pt-5 pb-2 text-light">
-		<h1>TOOLS</h1>
-		<div class="row justify-content-center grid gap-5 my-5">
-			<div class="col-md-3 col-12 mt-2">
+		<h1 class="tools-title show-on-scroll mt-5">TOOLS</h1>
+		<div class="row justify-content-center grid gap-5 my-5 .align-items-center">
+			<div class="col-md-3 col-12 mt-2 front-end show-on-scroll">
 				<h3>Front End</h3>
 				<div class="row justify-content-center">
 					<img src="./images/logo-html5.png" class="col-6 logo">
@@ -128,7 +128,7 @@
 					<img src="./images/logo-javascript.png" class="col-6 logo">
 				</div>
 			</div>
-			<div class="col-md-3 col-12">
+			<div class="col-md-3 col-12 mern show-on-scroll">
 				<h3>MERN</h3>
 				<div class="row justify-content-center">
 					<img src="./images/logo-mongodb.png" class="col-6 logo">
@@ -137,7 +137,7 @@
 					<img src="./images/logo-nodejs.png" class="col-6 logo">
 				</div>
 			</div>
-			<div class="col-md-3 col-12">
+			<div class="col-md-3 col-12 other-tools show-on-scroll">
 				<h3>Other Tools</h3>
 				<div class="row justify-content-center">
 					<img src="./images/logo-postman.png" class="col-6 logo">
@@ -191,6 +191,10 @@
 
 	<!-- Bootstrap Script -->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+
+	<!-- Animations -->
+	<script src="show-on-scroll.js"></script>
 
 
 
